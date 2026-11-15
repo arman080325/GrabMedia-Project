@@ -8,6 +8,8 @@
 
 **A bold, responsive media downloader for public Instagram and YouTube links.**
 
+<img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=18&duration=2600&pause=900&color=FF3D00&center=true&vCenter=true&width=620&lines=PASTE.+PREVIEW.+DOWNLOAD.;Instagram+%2B+YouTube+in+one+place.;Built+for+speed%2C+clarity%2C+and+control." alt="Animated GrabMedia tagline"/>
+
 Paste a supported URL, preview the media, choose an available format, and download through a lightweight Express backend.
 
 <br/>
@@ -57,14 +59,6 @@ The interface pairs a distinctive editorial visual style with a Node.js and Expr
   <img src="https://img.shields.io/badge/THEME-AUTO%20DAY%20%2F%20NIGHT-111111?style=for-the-badge" alt="Theme"/>
   <img src="https://img.shields.io/badge/LAYOUT-RESPONSIVE-555555?style=for-the-badge" alt="Responsive"/>
 </div>
-
-> **Want to show the actual motion?** GitHub README files support animated GIFs. Add a short product walkthrough at `docs/grabmedia-demo.gif` and replace the preview below with its relative path. A static image cannot demonstrate the live interface animation by itself.
-
-<!-- Replace this placeholder with an actual product walkthrough GIF when available:
-<div align="center">
-  <img src="docs/grabmedia-demo.gif" width="90%" alt="GrabMedia animated product walkthrough"/>
-</div>
--->
 
 ## ✨ Features
 
@@ -430,7 +424,7 @@ Respect creator rights, platform terms, copyright law, privacy, and applicable l
 
 ## 📄 License
 
-This repository advertises an MIT license badge and refers to a `LICENSE` file. Check the repository's current license file before reusing or redistributing the project.
+No `LICENSE` file was found on the `main` branch when this README was updated. Add a license file to make the project's reuse and redistribution terms explicit.
 
 ---
 
