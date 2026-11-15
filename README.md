@@ -1,64 +1,45 @@
 <div align="center">
 
-<img src="https://img.shields.io/badge/GRAB-MEDIA-ff3d00?style=for-the-badge&labelColor=111111" alt="GrabMedia"/>
-
-# GRABMEDIA
-
-### Your media. Your quality. One clean workflow.
-
-**A bold, responsive media downloader for public Instagram and YouTube links.**
-
-<img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=18&duration=2600&pause=900&color=FF3D00&center=true&vCenter=true&width=620&lines=PASTE.+PREVIEW.+DOWNLOAD.;Instagram+%2B+YouTube+in+one+place.;Built+for+speed%2C+clarity%2C+and+control." alt="Animated GrabMedia tagline"/>
-
-Paste a supported URL, preview the media, choose an available format, and download through a lightweight Express backend.
+<img src="assets/banner.svg" alt="GrabMedia — animated banner" width="100%"/>
 
 <br/>
 
-[![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
-[![Express](https://img.shields.io/badge/Express-4.x-111111?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
-[![RapidAPI](https://img.shields.io/badge/Instagram_API-RapidAPI-0055DA?style=for-the-badge)](https://rapidapi.com/)
-[![YouTube](https://img.shields.io/badge/YouTube-ytdl--core-FF0033?style=for-the-badge&logo=youtube&logoColor=white)](https://www.npmjs.com/package/@distube/ytdl-core)
-[![License](https://img.shields.io/badge/License-MIT-ff3d00?style=for-the-badge)](LICENSE)
+<a href="https://github.com/arman080325/GrabMedia-Project">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2400&pause=800&color=FF6D00&center=true&vCenter=true&width=700&height=40&lines=%24+paste+%E2%86%92+preview+%E2%86%92+download;Instagram+Reels%2C+Posts+%26+Carousels;YouTube+Videos%2C+Shorts+%26+Audio;Express+backend.+Zero+keys+in+the+browser." alt="Typing tagline"/>
+</a>
 
 <br/>
 
-[**Explore the repository**](https://github.com/arman080325/GrabMedia-Project)
-&nbsp; · &nbsp;
-[**Getting started**](#-get-started)
-&nbsp; · &nbsp;
-[**Report an issue**](https://github.com/arman080325/GrabMedia-Project/issues)
+[![Node.js](https://img.shields.io/badge/Node.js-18+-339933?style=flat-square&logo=node.js&logoColor=white)](https://nodejs.org/)
+[![Express](https://img.shields.io/badge/Express-4.x-000000?style=flat-square&logo=express&logoColor=white)](https://expressjs.com/)
+[![RapidAPI](https://img.shields.io/badge/RapidAPI-Instagram-0055DA?style=flat-square&logo=rapidapi&logoColor=white)](https://rapidapi.com/)
+[![ytdl-core](https://img.shields.io/badge/YouTube-ytdl--core-FF0033?style=flat-square&logo=youtube&logoColor=white)](https://www.npmjs.com/package/@distube/ytdl-core)
+[![Vanilla JS](https://img.shields.io/badge/Frontend-Vanilla_JS-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](#-tech-stack)
+[![License](https://img.shields.io/badge/License-MIT-ff3d00?style=flat-square)](#-license)
 
-<br/>
+**[⚡ Quick start](#-quick-start)** &nbsp;•&nbsp; **[🔌 API](#-api-reference)** &nbsp;•&nbsp; **[🛡️ Security](#%EF%B8%8F-security--reliability)** &nbsp;•&nbsp; **[🌍 Deploy](#-deployment)** &nbsp;•&nbsp; **[🗺️ Roadmap](#%EF%B8%8F-roadmap)** &nbsp;•&nbsp; **[🐛 Issues](https://github.com/arman080325/GrabMedia-Project/issues)**
 
-<img src="https://img.shields.io/badge/INSTAGRAM-REELS%20%7C%20POSTS%20%7C%20CAROUSELS-E1306C?style=flat-square" alt="Instagram support"/>
-<img src="https://img.shields.io/badge/YOUTUBE-VIDEOS%20%7C%20SHORTS%20%7C%20AUDIO-FF0033?style=flat-square" alt="YouTube support"/>
+<img src="assets/divider.svg" width="100%" height="8" alt=""/>
 
 </div>
 
----
+## 🔥 What is GrabMedia?
 
-## ✦ A little less friction. A lot more media.
-
-GrabMedia is a full-stack web project built around a simple flow: submit a public media URL, retrieve available media information, preview the result, then choose a download format.
-
-The interface pairs a distinctive editorial visual style with a Node.js and Express backend. API credentials stay on the server, requests are validated, and downloadable streams can be relayed through the backend proxy.
+A bold, responsive media downloader for **public** Instagram and YouTube links. Paste a URL, preview the media, pick an available format, and download — all through a lightweight Express backend that keeps your API credentials off the client.
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/01-PASTE%20A%20LINK-ff3d00?style=for-the-badge" alt="Step 1"/>
-<img src="https://img.shields.io/badge/02-PREVIEW%20MEDIA-222222?style=for-the-badge" alt="Step 2"/>
-<img src="https://img.shields.io/badge/03-CHOOSE%20FORMAT-222222?style=for-the-badge" alt="Step 3"/>
-<img src="https://img.shields.io/badge/04-DOWNLOAD-00a86b?style=for-the-badge" alt="Step 4"/>
+| `01` | `02` | `03` | `04` |
+|:---:|:---:|:---:|:---:|
+| 📋 **Paste**<br/>a public link | 👀 **Preview**<br/>thumbnail & metadata | 🎚️ **Choose**<br/>an available format | ⬇️ **Download**<br/>via backend proxy |
+
+<img src="https://img.shields.io/badge/DESIGN-EDITORIAL_BRUTALISM-ff3d00?style=for-the-badge&labelColor=111111" alt="Design"/>
+<img src="https://img.shields.io/badge/THEME-AUTO_DAY_%2F_NIGHT-ffb300?style=for-the-badge&labelColor=111111" alt="Theme"/>
+<img src="https://img.shields.io/badge/LAYOUT-RESPONSIVE-00e676?style=for-the-badge&labelColor=111111" alt="Responsive"/>
 
 </div>
 
-## 🎬 The experience
-
-<div align="center">
-  <img src="https://img.shields.io/badge/DESIGN-EDITORIAL%20BRUTALISM-ff3d00?style=for-the-badge" alt="Design style"/>
-  <img src="https://img.shields.io/badge/THEME-AUTO%20DAY%20%2F%20NIGHT-111111?style=for-the-badge" alt="Theme"/>
-  <img src="https://img.shields.io/badge/LAYOUT-RESPONSIVE-555555?style=for-the-badge" alt="Responsive"/>
-</div>
+<img src="assets/divider.svg" width="100%" height="8" alt=""/>
 
 ## ✨ Features
 
@@ -68,26 +49,24 @@ The interface pairs a distinctive editorial visual style with a Node.js and Expr
 
 ### 📸 Instagram
 
-- Reels and video posts
-- Single-image posts
-- Multi-item carousel posts
-- Story URLs supported by the API route
-- Preview available media
-- Download returned media items
-- HD-labelled media when supplied by the upstream API
+- 🎞️ Reels and video posts
+- 🖼️ Single-image posts
+- 🗂️ Multi-item carousels
+- 📖 Story URLs supported by the API route
+- 👁️ Preview before download
+- 🏷️ HD-labelled media when the upstream API supplies it
 
 </td>
 <td width="50%" valign="top">
 
 ### ▶️ YouTube
 
-- Standard video URLs
-- YouTube Shorts URLs
-- Video metadata and thumbnail
-- Multiple available video formats
-- Muxed video/audio formats where available
-- Video-only and separate audio formats
-- Audio-only download option when available
+- 🎬 Standard videos and Shorts
+- 🖼️ Title, thumbnail and duration metadata
+- 🎚️ Multiple available video formats
+- 🔊 Muxed video + audio where available
+- 📼 Video-only and separate audio streams
+- 🎧 Audio-only download when available
 
 </td>
 </tr>
@@ -96,27 +75,26 @@ The interface pairs a distinctive editorial visual style with a Node.js and Expr
 
 ### 🎨 Interface
 
-- Distinctive editorial / brutalist design
-- Automatic day/night theme selection
-- Manual theme toggle
-- Custom cursor effects on supported desktops
-- Responsive mobile and desktop layout
-- Carousel preview for Instagram posts
-- Loading states, error messages and toast feedback
+- 🧱 Editorial / brutalist design language
+- 🌗 Automatic day/night theme + manual toggle
+- 🖱️ Custom cursor effects on supported desktops
+- 📱 Responsive mobile and desktop layout
+- 🎠 Carousel preview for Instagram posts
+- ⏳ Loading states, error messages and toasts
 
 </td>
 <td width="50%" valign="top">
 
 ### ⚙️ Backend
 
-- Express REST API
-- Server-side RapidAPI credential handling
-- URL validation for supported platforms
-- Helmet security headers
-- CORS origin allowlist
-- Global and download-specific rate limits
-- Request logging with Morgan
-- Backend proxy for file streaming
+- 🚏 Express REST API
+- 🔐 Server-side RapidAPI credential handling
+- ✅ URL validation for supported platforms
+- 🪖 Helmet security headers
+- 🌐 CORS origin allowlist
+- 🚦 Global + download-specific rate limits
+- 📝 Morgan request logging
+- 🔁 Backend proxy for file streaming
 
 </td>
 </tr>
@@ -125,67 +103,82 @@ The interface pairs a distinctive editorial visual style with a Node.js and Expr
 ## 🧭 How it works
 
 ```mermaid
-flowchart TD
-    A["User pastes a media URL"] --> B{"Choose platform"}
-    B -->|"Instagram"| C["POST /api/download"]
-    B -->|"YouTube"| D["POST /api/youtube"]
-    C --> E["Express validates URL"]
+%%{init: {'theme':'dark','themeVariables':{'primaryColor':'#1a1a22','primaryTextColor':'#fff','primaryBorderColor':'#ff3d00','lineColor':'#ffb300','fontFamily':'monospace'}}}%%
+flowchart LR
+    A(["📋 Paste URL"]) --> B{"Platform?"}
+    B -->|Instagram| C["POST /api/download"]
+    B -->|YouTube| D["POST /api/youtube"]
+    C --> E["🛡️ Validate URL"]
     D --> E
-    E --> F{"Retrieve media information"}
-    F -->|"Instagram"| G["RapidAPI provider"]
-    F -->|"YouTube"| H["YouTube format resolver"]
-    G --> I["Normalize media response"]
+    E --> F{"Retrieve media info"}
+    F -->|Instagram| G["RapidAPI provider"]
+    F -->|YouTube| H["Format resolver"]
+    G --> I["Normalize response"]
     H --> I
-    I --> J["Frontend preview + format list"]
-    J --> K["User selects a download"]
-    K --> L["Backend proxy when applicable"]
-    L --> M["Browser receives media"]
+    I --> J["👀 Preview + formats"]
+    J --> K["🎚️ Pick a format"]
+    K --> L["🔁 Backend proxy"]
+    L --> M(["⬇️ Browser download"])
 ```
 
-The frontend communicates with the backend over HTTP. The backend validates requests and retrieves media information from the configured upstream provider or YouTube format resolver. The UI renders the returned metadata and available download options.
+The frontend talks to the backend over HTTP. The backend validates each request, fetches media info from the configured provider or YouTube resolver, and the UI renders the returned metadata and download options.
 
 ## 🧰 Tech stack
 
-| Area | Tools |
+<div align="center">
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+![Nodemon](https://img.shields.io/badge/Nodemon-76D04B?style=for-the-badge&logo=nodemon&logoColor=white)
+
+</div>
+
+| Layer | Tools |
 |---|---|
-| Frontend | HTML5, CSS3, Vanilla JavaScript |
-| Styling | CSS custom properties, keyframe animations, responsive layouts |
-| Typography | Bebas Neue, Space Grotesk, JetBrains Mono |
-| Backend | Node.js, Express 4 |
-| Instagram retrieval | RapidAPI Instagram downloader provider |
-| YouTube retrieval | `@distube/ytdl-core` |
-| HTTP | `node-fetch` |
-| Security | Helmet, CORS allowlist, express-rate-limit |
-| Logging & configuration | Morgan, dotenv |
-| Development | Nodemon |
-| Hosting approach | Backend service + static frontend hosting |
+| 🖥️ **Frontend** | HTML5, CSS3, Vanilla JavaScript |
+| 🎨 **Styling** | CSS custom properties, keyframe animations, responsive layouts |
+| 🔤 **Typography** | Bebas Neue · Space Grotesk · JetBrains Mono |
+| ⚙️ **Backend** | Node.js, Express 4 |
+| 📸 **Instagram** | RapidAPI Instagram downloader provider |
+| ▶️ **YouTube** | `@distube/ytdl-core` |
+| 🌐 **HTTP** | `node-fetch` |
+| 🛡️ **Security** | Helmet, CORS allowlist, `express-rate-limit` |
+| 🧾 **Config & logs** | dotenv, Morgan |
+| 🌍 **Hosting** | Backend service + static frontend |
 
-## 🚀 Get started
+<img src="assets/divider.svg" width="100%" height="8" alt=""/>
 
-### Prerequisites
+## ⚡ Quick start
 
-- [Node.js](https://nodejs.org/) 18 or newer
-- npm
-- A [RapidAPI](https://rapidapi.com/) account and access to the Instagram downloader API configured for this project
-- Git
+**Prerequisites:** [Node.js](https://nodejs.org/) 18+, npm, Git, and a [RapidAPI](https://rapidapi.com/) account with access to the configured Instagram downloader API.
 
-### 1. Clone the project
+<details open>
+<summary><b>1 · Clone</b></summary>
 
 ```bash
 git clone https://github.com/arman080325/GrabMedia-Project.git
 cd GrabMedia-Project
 ```
 
-### 2. Install backend dependencies
+</details>
+
+<details open>
+<summary><b>2 · Install backend dependencies</b></summary>
 
 ```bash
 cd backend
 npm install
 ```
 
-### 3. Configure environment variables
+</details>
 
-Create a local `.env` file in the `backend/` directory. You can start from `.env.example` if it exists in your checkout.
+<details open>
+<summary><b>3 · Configure environment</b></summary>
+
+Create `backend/.env` (or copy `.env.example` if your checkout has one):
 
 ```env
 RAPIDAPI_KEY=your_rapidapi_key
@@ -194,45 +187,39 @@ PORT=5000
 FRONTEND_URL=http://127.0.0.1:5500
 ```
 
-The YouTube route uses the configured `@distube/ytdl-core` dependency. The server also reads `RAPIDAPI_YT_HOST` only if you configure or extend the corresponding integration; check the backend implementation before adding unused variables.
+> [!NOTE]
+> The YouTube route uses the bundled `@distube/ytdl-core` dependency. The server reads `RAPIDAPI_YT_HOST` only if you configure or extend that integration — check the backend implementation before adding unused variables.
 
-**Keep credentials private.** Never commit `.env`, API keys, or provider secrets.
+> [!CAUTION]
+> Never commit `.env`, API keys, or provider secrets.
 
-### 4. Start the backend
+</details>
 
-Development mode (Nodemon):
-
-```bash
-npm run dev
-```
-
-Production mode:
+<details open>
+<summary><b>4 · Run the backend</b></summary>
 
 ```bash
-npm start
+npm run dev     # development (Nodemon)
+npm start       # production
 ```
 
-By default, the API listens on:
+The API listens on `http://localhost:5000` by default.
 
-```text
-http://localhost:5000
-```
+</details>
 
-### 5. Open the frontend
+<details open>
+<summary><b>5 · Open the frontend</b></summary>
 
-Open `frontend/index.html` using VS Code Live Server, or use another static web server. The development CORS allowlist includes common local origins such as `http://127.0.0.1:5500` and `http://localhost:5500`.
+Open `frontend/index.html` with VS Code Live Server (or any static server). The dev CORS allowlist already includes `http://127.0.0.1:5500` and `http://localhost:5500`.
 
-Make sure the frontend's `BACKEND_URL` points to the address where your backend is running.
+Make sure `BACKEND_URL` in the frontend points to your running backend.
 
-### 6. Check server health
+</details>
 
-Open:
+<details open>
+<summary><b>6 · Health check</b></summary>
 
-```text
-http://localhost:5000/health
-```
-
-Expected response shape:
+Visit `http://localhost:5000/health`. Expected response shape:
 
 ```json
 {
@@ -242,30 +229,32 @@ Expected response shape:
 }
 ```
 
+</details>
+
 ## 🔌 API reference
 
-Base URL for local development: `http://localhost:5000`
-
-### Health and service endpoints
+Base URL (local): `http://localhost:5000`
 
 | Method | Endpoint | Purpose |
-|---|---|---|
+|:---:|---|---|
 | `GET` | `/` | Service status |
 | `GET` | `/health` | Health check |
+| `POST` | `/api/download` | Instagram media lookup |
+| `POST` | `/api/youtube` | YouTube media lookup |
+| `GET` | `/api/proxy` | Media stream proxy |
 
-### Instagram media lookup
+<details>
+<summary><b>📸 POST /api/download — Instagram</b></summary>
 
-`POST /api/download`
+<br/>
 
-Request:
+**Request**
 
 ```json
-{
-  "url": "https://www.instagram.com/reel/EXAMPLE/"
-}
+{ "url": "https://www.instagram.com/reel/EXAMPLE/" }
 ```
 
-Successful response shape:
+**Response shape**
 
 ```json
 {
@@ -286,72 +275,88 @@ Successful response shape:
 }
 ```
 
-The actual formats and number of returned items depend on the upstream API response and the media being requested.
+Formats and item count depend on the upstream API response and the requested media.
 
-### YouTube media lookup
+</details>
 
-`POST /api/youtube`
+<details>
+<summary><b>▶️ POST /api/youtube — YouTube</b></summary>
 
-Request:
+<br/>
+
+**Request**
 
 ```json
-{
-  "url": "https://www.youtube.com/watch?v=EXAMPLE"
-}
+{ "url": "https://www.youtube.com/watch?v=EXAMPLE" }
 ```
 
-The response includes the title, thumbnail, duration (when available), and a list of formats. Depending on the source video, these can include combined video/audio, video-only, and audio-only streams.
+The response includes the title, thumbnail, duration (when available), and a list of formats — combined video/audio, video-only, and audio-only streams, depending on the source video.
 
-### Media proxy
+</details>
 
-`GET /api/proxy?url=ENCODED_URL&filename=video.mp4`
+<details>
+<summary><b>🔁 GET /api/proxy — Media proxy</b></summary>
 
-The proxy relays a remote media stream to the browser and supports range forwarding for YouTube media requests in the backend implementation.
+<br/>
 
-**Deployment security note:** the proxy accepts a URL parameter. Before exposing it to untrusted public traffic, enforce strict destination allowlisting, protocol restrictions, DNS/IP validation, redirect validation, response-size/time limits, and safe filename handling to mitigate server-side request forgery and resource abuse.
+```http
+GET /api/proxy?url=ENCODED_URL&filename=video.mp4
+```
 
-## 🛡️ Security and reliability
+Relays a remote media stream to the browser and supports range forwarding for YouTube media requests.
 
-Security is part of the backend design, not just the UI:
+> [!WARNING]
+> The proxy accepts a URL parameter. Before exposing it to untrusted public traffic, enforce strict destination allowlisting, protocol restrictions, DNS/IP validation, redirect validation, response size/time limits, and safe filename handling to mitigate SSRF and resource abuse.
 
-- **Helmet:** sets defensive HTTP response headers.
-- **CORS allowlist:** permits configured frontend origins and local development origins.
-- **Rate limiting:** global request limits and a stricter limiter on download lookup routes.
-- **URL validation:** checks supported Instagram and YouTube URL shapes before retrieval.
-- **API secret isolation:** RapidAPI credentials are read by the backend, not embedded in browser code.
-- **Request logging:** Morgan provides HTTP request logs.
-- **Payload limits:** JSON request bodies are capped to reduce oversized input abuse.
+</details>
 
-No automated control removes every risk. Review the proxy, upstream-provider terms, and deployment configuration before operating a public instance.
+## 🛡️ Security & reliability
+
+| | Control | What it does |
+|:---:|---|---|
+| 🪖 | **Helmet** | Sets defensive HTTP response headers |
+| 🌐 | **CORS allowlist** | Permits only configured frontend + local dev origins |
+| 🚦 | **Rate limiting** | Global limits plus a stricter limiter on lookup routes |
+| ✅ | **URL validation** | Checks Instagram / YouTube URL shapes before retrieval |
+| 🔐 | **Secret isolation** | RapidAPI credentials live on the server, never in browser code |
+| 📝 | **Request logging** | Morgan HTTP logs |
+| 📦 | **Payload limits** | JSON bodies are capped to reduce oversized-input abuse |
+
+> [!IMPORTANT]
+> No control removes every risk. Review the proxy, upstream-provider terms, and your deployment configuration before running a public instance.
 
 ## 📂 Project structure
 
 ```text
 GrabMedia-Project/
-│
-├── frontend/
-│   ├── index.html          # Application shell and UI structure
-│   ├── style.css           # Theme system, responsive styles and animations
-│   └── app.js              # Platform switching, fetch, preview and downloads
-│
-├── backend/
+├── 🎨 frontend/
+│   ├── index.html        # Application shell and UI structure
+│   ├── style.css         # Theme system, responsive styles, animations
+│   └── app.js            # Platform switching, fetch, preview, downloads
+├── ⚙️ backend/
 │   ├── src/
-│   │   └── server.js       # Express app, API routes and stream proxy
-│   ├── package.json        # Backend scripts and dependencies
-│   ├── README.md           # Backend-specific setup notes
-│   └── .env.example        # Environment template (when present)
-│
+│   │   └── server.js     # Express app, API routes, stream proxy
+│   ├── package.json      # Scripts and dependencies
+│   ├── README.md         # Backend-specific setup notes
+│   └── .env.example      # Environment template (when present)
+├── 🖼️ assets/
+│   ├── banner.svg        # Animated README banner
+│   └── divider.svg       # Animated section divider
 ├── .gitignore
 └── README.md
 ```
 
+<img src="assets/divider.svg" width="100%" height="8" alt=""/>
+
 ## 🌍 Deployment
 
-The project is structured as a separate static frontend and Node.js backend.
+The project ships as a **static frontend** + a **Node.js backend**.
 
-### Backend service
+<table>
+<tr>
+<td width="50%" valign="top">
 
-The backend can be deployed to a Node.js host such as [Render](https://render.com/).
+### ⚙️ Backend → Render
 
 | Setting | Value |
 |---|---|
@@ -360,33 +365,39 @@ The backend can be deployed to a Node.js host such as [Render](https://render.co
 | Start command | `npm start` |
 | Runtime | Node.js |
 
-Set the required environment variables in the hosting provider's dashboard. At minimum, configure `RAPIDAPI_KEY`, `RAPIDAPI_HOST`, and `FRONTEND_URL`.
+Set `RAPIDAPI_KEY`, `RAPIDAPI_HOST`, and `FRONTEND_URL` in the host's dashboard.
 
-### Static frontend
+</td>
+<td width="50%" valign="top">
 
-The `frontend/` directory can be hosted on a static hosting provider such as [Vercel](https://vercel.com/) or [Netlify](https://www.netlify.com/).
+### 🎨 Frontend → Vercel / Netlify
 
-Before deploying:
+Host the `frontend/` directory, then:
 
 1. Update `BACKEND_URL` in `frontend/app.js` to the deployed backend origin.
-2. Add the exact frontend origin to the backend's `FRONTEND_URL` configuration.
-3. Redeploy the backend after changing environment variables.
-4. Verify the health endpoint and test both platform lookup flows.
+2. Add the exact frontend origin to the backend's `FRONTEND_URL`.
+3. Redeploy the backend after changing env vars.
+4. Verify `/health` and test both platform flows.
 
-> Free hosting tiers may sleep after inactivity. The first request can take longer while a service wakes up. Confirm current provider limits and availability before relying on a public deployment.
+</td>
+</tr>
+</table>
+
+> [!TIP]
+> Free hosting tiers may sleep after inactivity, so the first request can be slow. Confirm current provider limits before relying on a public deployment.
 
 ## 🧠 What this project explores
 
-- Designing REST endpoints and normalizing third-party API responses.
-- Separating browser UI from backend integration logic.
-- Keeping API credentials out of client-side code.
-- Configuring CORS and HTTP security headers.
-- Applying rate limits to protect upstream services.
-- Validating untrusted user-supplied URLs.
-- Streaming remote media through a backend proxy.
-- Building responsive interfaces with CSS animations and theme tokens.
-- Handling asynchronous requests, loading states, and API failures.
-- Deploying a static frontend and a separate Node.js API.
+- 🔗 Designing REST endpoints and normalizing third-party API responses
+- 🧩 Separating browser UI from backend integration logic
+- 🔐 Keeping API credentials out of client-side code
+- 🌐 Configuring CORS and HTTP security headers
+- 🚦 Rate-limiting to protect upstream services
+- ✅ Validating untrusted, user-supplied URLs
+- 🌊 Streaming remote media through a backend proxy
+- 🎨 Responsive UI with CSS animations and theme tokens
+- ⏳ Async requests, loading states, and API failure handling
+- 🚀 Deploying a static frontend alongside a separate Node.js API
 
 ## 🗺️ Roadmap
 
@@ -407,9 +418,10 @@ Before deploying:
 
 ## ⚖️ Responsible use
 
-GrabMedia is an educational project. Use it only for content you own, have permission to download, or are otherwise legally entitled to access.
+> [!IMPORTANT]
+> GrabMedia is an **educational project**. Use it only for content you own, have permission to download, or are otherwise legally entitled to access.
 
-Respect creator rights, platform terms, copyright law, privacy, and applicable local rules. Do not use the project to bypass access controls, download private content, or redistribute media without permission. Availability of a public URL does not automatically grant rights to reuse its content.
+Respect creator rights, platform terms, copyright law, privacy, and applicable local rules. Do not use the project to bypass access controls, download private content, or redistribute media without permission. A public URL does not automatically grant rights to reuse its content.
 
 ## 👨‍💻 Author
 
@@ -418,20 +430,23 @@ Respect creator rights, platform terms, copyright law, privacy, and applicable l
 ### Arman Ahemad Khan
 
 [![GitHub](https://img.shields.io/badge/GitHub-arman080325-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/arman080325)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Arman%20Ahemad%20Khan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arman-ahemad-khan-045a71253/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Arman_Ahemad_Khan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arman-ahemad-khan-045a71253/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-arman--portfolio.online-ff3d00?style=for-the-badge&logo=googlechrome&logoColor=white)](https://arman-portfolio.online)
 
 </div>
 
 ## 📄 License
 
-No `LICENSE` file was found on the `main` branch when this README was updated. Add a license file to make the project's reuse and redistribution terms explicit.
-
----
+No `LICENSE` file was found on the `main` branch when this README was last updated. Add one to make reuse and redistribution terms explicit.
 
 <div align="center">
 
-**GRABMEDIA — Find it. Preview it. Save what you have the rights to keep.**
+<br/>
 
-<sub>Designed and developed by Arman Ahemad Khan.</sub>
+**⭐ If GrabMedia helped you, drop a star — it keeps the project moving. ⭐**
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff3d00,100:ffb300&height=140&section=footer&text=Find%20it.%20Preview%20it.%20Save%20what%20you%20have%20the%20rights%20to%20keep.&fontSize=18&fontColor=ffffff&fontAlignY=68&animation=twinkling" width="100%" alt="Footer wave"/>
+
+<sub>Designed and developed by Arman Ahemad Khan</sub>
 
 </div>
